@@ -1,30 +1,110 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+  background-color: #FFF2E0;
+}
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10;
+}
+
+#avatar {
+  width: 150px;
+  border-radius: 50%;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.card {
+  width: 750px;
+  padding: 20px auto;
+  margin: 10px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
 
 h1 {
-    font-family: "Roboto", sans-serif;
-    color: #708A58
+  font-family: "Quicksand", sans-serif;
+  font-size: 40px;
+  margin: 0;
+  padding-bottom: 10px;
+  color: #898AC4;
 }
 
-h2 {
-    font-family: "Roboto", sans-serif;
-    color: #819A91
-}
-
-h3 {
-    font-family: "Roboto", sans-serif;
-    color: #819A91
+.title {
+  font-family: "Quicksand", sans-serif;
+  font-size: 35px;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  color: #898AC4;
 }
 
 p {
-    font-family: "Roboto", sans-serif;
-    color: #0B1D51
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 10px;
 }
 
-.social-media {
-    color: #9BC09C
-    font-size: 30px
+.list-inline li {
+  list-style: none;
+  padding: 10px;
+  display: inline-block;
+  font-size: 40px;
+  margin: 0;
 }
 
-img {
-    border-radius: 50%
+ul {
+  padding: 0;
+}
+
+#le-wagon-icon {
+  color: red;
+}
+
+i {
+  color: #b49ee5;
+}
+
+.card-education, .card-interest {
+  width: 200px;
+  height: 150px;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+#unesp {
+  width: 90px;
+}
+
+#ufv {
+  width: 100px;
+}
+
+#le-wagon {
+  width: 90px;
+}
+
+.education, .interest {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+#health, #travel, #reading, #sewing {
+  width: 90px;
+  border-radius: 5px;
+}
+
+#quote {
+  font-size: 20px;
+  line-height: 1.5;
+  padding-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }

@@ -2,50 +2,117 @@
 <html>
   <head>
 		<title>My profile</title>
-    <link rel="stylesheet" href="style.css">
+    	<link rel="stylesheet" href="style.css">
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-		<img src="images/Profile.jpeg" width="150px" alt="Aneli Abe">
-		<h1>Aneli Abe</h1>
-		<h2>Web development student at Le Wagon <i class="fa-solid fa-van-shuttle"></i> - Batch #2005 </h2> 
-		<h3>Resume</h3>
-		<p>
-      📍São Paulo - Brazil
-      <br>
-      I graduated in biological science and got my master's degree in Agricultural Microbiology 🔬
-			<br>
-			I worked in a biotech company for about 4 years and a half and now I am currently trying to get into programming 💻</p>
-			<br>
-
-		<img src="images/Naila.jpeg" width="150px" alt="Naila">
-		<h3>Naila's mom 🐶
-			<a href="https://www.instagram.com/_nailandia?igsh=MWt0bjQ0Z2YwcDlpMg%3D%3D&utm_source=qr" target="_blank">
-				<i class="fa-brands fa-instagram"></i>
-			</a>
-		</h3>
-			<br>
-			I like traveling ✈️ and sewing in my free time 🪡🧵
-		
-		<h3>Follow me</h3>
-		<ul class="social-media">
-			<li>
-				<a href="https://www.linkedin.com/in/aneliabe/" target="_blank">
-					<i class="fa-brands fa-linkedin"></i>
-				</a>
-			</li>
-			<li>
-				<a href="https://github.com/aneliabe" target="_blank">
-					<i class="fa-brands fa-github"></i>
-        </a>
-			</li>
-			<li>
-				<a href="https://www.instagram.com/aneliabe?igsh=ZHlwOHM2cXB6ZTk%3D&utm_source=qr" target="_blank">
-					<i class="fa-brands fa-instagram"></i>
-				</a>
-			</li>
-		</ul>
+    <div class="container">
+      <div class="card">
+        <img id="avatar" src="images/Profile.jpeg" alt="Aneli Abe">
+        <h1>ANELI ABE</h1>
+      </div>
+      <div class="card">
+        <h2 class="title">Who am I?</h2>
+        <p>
+          📍Brazil
+          <br>
+          Biologist | MSc Agricultural Microbiology 🔬
+          <br>
+          Worked in a biotech company for about 4 years and a half
+          <br>
+          Programmer 💻 - Web development Batch #2005 
+            <i class="fa-solid fa-van-shuttle" id="le-wagon-icon"></i>
+          <br>
+          I'm a very curious and creative person
+          <br>
+          Naila's mom 🐶
+          <a href="https://www.instagram.com/_nailandia?igsh=MWt0bjQ0Z2YwcDlpMg%3D%3D&utm_source=qr" class="social-media" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a> 
+          <br>
+          <br>
+          Find out more below and let's get in touch!
+        </p>
+      </div>
+      <div class="card">
+        <h2 class="title">Education</h2>
+        <div class="education">
+          <div class="card-education">
+            <img id="unesp" src="images/unesp-logo-11.png" alt="UNESP logo">
+            <p>Biological Science</p>
+          </div>
+          <div class="card-education">
+            <img id="ufv" src="images/logotipo-UFV1-4-1024x804.png" alt="UFV logo">
+            <p>MSc Agricultural Microbiology</p>
+          </div>
+          <div class="card-education">
+            <img id="le-wagon" src="images/le wagon logo.png" alt="Le Wagon">
+            <p>Web Development</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="title">Interests</h2>
+        <div class="interest">
+          <div class="card-interest">
+            <img src="images/Health.jpeg" id="health" alt="Health">
+            <p>
+              Health
+              <br>
+              Well-being
+            </p>
+          </div>
+          <div class="card-interest">
+            <img src="images/Traveling.jpeg" id="travel" alt="Travel">
+            <p>Travel</p>
+          </div>
+          <div class="card-interest">
+            <img src="images/Reading.jpeg" id="reading" alt="Reading">
+            <p>
+              Reading
+              <br>
+              Learning
+            </p>
+          </div>
+          <div class="card-interest">
+            <img src="images/Sewing.jpeg" id="sewing" alt="Sewing">
+            <p>
+              Sewing
+              <br>
+              Creating
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <p id="quote">"It’s not about sitting back and waiting; it’s about believing, acting, and aligning with the life you desire."
+          <br>
+          <br>
+          - Roxie Nafousi
+        </p>
+      </div>
+      <div class="card">
+        <h2 class="title">Let's connect</h2>
+        <ul class="list-inline">
+          <li>
+            <a href="https://www.linkedin.com/in/aneliabe/" class="social-media" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/aneliabe" class="social-media" target="_blank">
+              <i class="fa-brands fa-github"></i>
+                </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/aneliabe?igsh=ZHlwOHM2cXB6ZTk%3D&utm_source=qr" class="social-media" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+      </ul>
+      </div>
+    </div>
   </body>
 </html>
 <!-- end of file -->
